@@ -33,6 +33,7 @@ textarea {
 	height: 400px;
 	width: 400px;
 	padding: 10px;
+	
 }
 .author {
 	text-align: center;
@@ -46,4 +47,13 @@ button {
 footer {
 	height: 100px;
 	background-color: Khaki;
+}
+
+
+
+@media screen and (max-width: 450px) {
+	textarea {
+	height: 400px;
+	width: 320px;
+	}
 }
